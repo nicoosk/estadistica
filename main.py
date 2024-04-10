@@ -7,9 +7,9 @@ k = 4
 p = 0.3
 n = 10
 
-def calcularDistBinomial():
+def calcularDistBinomial() -> float:
     coefBinomial = calcularCoefBinomial(n, k)
-    return coefBinomial * (p**k) * (1 - p)
+    return coefBinomial * (math.pow(p, k)) * math.pow((1 - p), (n - k))
     
     
 
@@ -18,4 +18,6 @@ def calcularCoefBinomial(n:int, k:int):
     factorialK = math.factorial(k)
     factorialN = math.factorial(n)
     return factorialN / (factorialK * math.factorial((n - k)))
+
+print(calcularDistBinomial())
     
