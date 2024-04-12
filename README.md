@@ -19,12 +19,12 @@ Para poder usar las funciones incluidas en este repositorio, deberás cumplir co
 
 Si tienes configurado Git y sabes como clonar de buena forma un proyecto, puedes saltarte todo lo que venga a continuación.
 
-#### Copiando el proyecto
+## Copiando el proyecto
 No es necesario que copies todo el proyecto, pero sería lo ideal, es mucho más rápido y puedes mantener el código actualizado. Para poder copiar el código, solo debes seleccionar, copiar y pegar el código que necesites en tu editor de texto (de preferencia vscode) y listo. 
 
 Si deseas, en cambio, clonar todo el proyecto, deberás descargar la herramienta Git en tu PC. Lo ideal es que lo configures con tus credenciales, aquí te dejo una pequeña guía de [como configurar Git y Github de la manera recomendada](https://www.youtube.com/watch?v=wHh3IgJvXcE "como configurar Git y Github de la manera recomendada") (sáltate la parte de llaves ssh, no es necesario).
 
-#### Clonando el proyecto
+## Clonando el proyecto
 Una vez que tengas configurado Git, es momento de introducir comandos en la terminal. 
 
 Primero, crea un directorio en el lugar que más te acomode (Escritorio, Documentos, etc). Este será el lugar donde almacenes todos tus proyectos. Luego, presiona el botón verde que dice *code* y vete al apartado donde dice *HTTPS*. Ahí es donde copiarás el link que te otorga Github.
