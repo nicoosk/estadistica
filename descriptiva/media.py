@@ -1,5 +1,8 @@
 # Parámetros
-datos = [] # Datos para sacar la media, puedes poner cuantos quieras
+datos = [2, 3, 10, 34, 29, 40, 20] # Datos para sacar la media, puedes poner cuantos quieras
 
+media = 0
 # Calculamos la media
-media = (datos[i]/2) for i in datos.count() 
+media = sum(datos)/len(datos)
+
+print(f"La media del total de datos ingresados es: {media}")
